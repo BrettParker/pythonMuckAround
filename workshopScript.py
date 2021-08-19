@@ -36,6 +36,50 @@ empty = [1, "rrrrrr", 1.2345]
 del empty[1]
 
 
+## For loops
+
+"I really like cats"
+"I really like dogs"
+"I like gold fish"
+"I really like Jacob"
+
+subjects = ["cats", "dogs", "gold fish", "Jacob"]
+
+for likeables in subjects:
+    print("I really like", likeables) #comments
+
+for number in [2,3,4]:
+    print('the value of number * x=', number*2)
+
+print("Brett")
+
+primes = [2,3,5]
+squared = []
+
+for p in primes:
+    sqr = p ** 2
+    squared.append(sqr)
+
+
+primes = [2,3,5]
+for i in range(0,len(primes),1):
+    print("the value of i in this loop is:", primes[i])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
